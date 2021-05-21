@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") -%>
+    <div id="results">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal"><b>Dice Roll Results</b></h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Number of rolled dice: <b><%= quant %></b></li>
+              <li>Type of dice: <b><%=type%>-sided</b></li>
+              <li>Sum of rolls: <b><%=sum%></b></li>
+              <li>Complete results: <b><%=results%></b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

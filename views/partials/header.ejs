@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Roll Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <img class="mb-4" src="https://media.tenor.com/images/149ec746b8b162f58e982a03c82095e6/tenor.gif" alt="" width="72" height="72">
+    <form action="/" method="post">
+      <h2>Dice Roll Simulator</h2>
+      <div class="login">
+        <select class="form-select" aria-label="Default select example" name="diceType">
+          <option value="null" selected disabled>Number of dice sides</option>
+          <option value="4">4 Sides</option>
+          <option value="6">6 Sides</option>
+          <option value="8">8 Sides</option>
+          <option value="10">10 Sides</option>
+          <option value="12">12 Sides</option>
+          <option value="20">20 Sides</option>
+        </select>
+        <div class="col-auto">
+          <input class="form-control mb-2" type="number" name="diceQuantity" value="" placeholder="Number of dice to roll" min="1" max="50">
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Simulate Rolls</button>
+      </div>
+    </form>

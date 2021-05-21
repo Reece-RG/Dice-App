@@ -1,0 +1,22 @@
+body {
+  background-color: #ededed;
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+}
+form, img, #results {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2, h4 {
+  padding-bottom: 5%;
+  text-align: center;
+}
+form {
+  top: 35%;
+}
+img {
+  top: 23%;
+}
+#results {
+  top: 55%;
+}
